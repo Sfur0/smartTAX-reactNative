@@ -13,8 +13,7 @@ import UserListReducer from "./UserListReducer";
 // CUSTOM REDUCERS
 import LoginReducer from "./LoginReducer";
 import ProfileReducer from "./ProfileReducer";
-import UserEditReducer from "./UserEditReducer";
-import UserListReducer from "./UserListReducer";
+
 
 const rootReducer = combineReducers({
   
@@ -28,8 +27,7 @@ const rootReducer = combineReducers({
 	DocumentEditReducer,
 	DocumentListReducer,
 	HomeReducer,
-	UserEditReducer,
-	UserListReducer,
+
  // END COMBINE REDUCERS
 
 });
